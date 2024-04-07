@@ -2,7 +2,7 @@
 using namespace pxt;
 namespace pokus {
     //%
-    int extfun(int x, int y) {
-        return x + y;
+    void pokus() {
+        uBit.io.pin
     }
 }
