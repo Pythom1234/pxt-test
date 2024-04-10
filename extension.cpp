@@ -4,6 +4,6 @@ namespace pokus {
     //%
     void pokus() {
         uBit.init()
-        uBit.audio.activateMic()
+        //uBit.audio.activateMic()
     }
 }
