@@ -2,7 +2,7 @@ namespace pokus {
     /**
      * Help goes here.
      */
-    //% shim=pokus::pokus
+    // shim=pokus::pokus
     //% block
     export function pokus(): void {
     }
