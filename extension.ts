@@ -4,6 +4,6 @@ namespace pokus {
      */
     //% shim=pokus::pokus
     //% block
-    export function pokus() {
+    export function pokus(): void {
     }
 }
