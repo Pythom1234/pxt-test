@@ -3,6 +3,6 @@
 namespace sound{
     //%
 	void record(){
-        uBit.init()
-        uBit.audio.recorder->startRecording();
+        uBit.init();
+        uBit.display.scroll()
 	}
