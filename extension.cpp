@@ -1,8 +1,9 @@
 #include "pxt.h"
 using namespace pxt;
+uBit.init()
 namespace pokus {
     //%
     void pokus() {
-        print(uBit.io.pin)
+        uBit.audio.activateMic()
     }
 }
