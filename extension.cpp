@@ -2,7 +2,7 @@
 
 namespace sound{
     //%
-	void record(){
+	int record(){
         uBit.init();
-        uBit.display.scroll()
+        return uBit.io.pin[5].getAnalogValue()
 	}
