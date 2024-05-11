@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "OLED": "github:pythom1234/pxt-oled#master"
+        "OLED": "github:pythom1234/pxt-oled#v1.1.4"
     },
     "files": [
         "main.blocks",

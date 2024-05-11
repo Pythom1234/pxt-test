@@ -1,9 +1,13 @@
 #include "pxt.h"
 
-namespace sound{
+namespace sound
+{
     //%
-	int record(){
+	int record()
+    {
         uBit.init();
-        return uBit.io.microphone.getAnalogValue()
+        uBit.io.runmic.setDigitalValue(1);
+        uBit.io.runmic.setHighDrive(true);
+        return uBit.io.microphone.getAnalogValue();
 	}
 }
