@@ -4,5 +4,5 @@ namespace sound{
     //%
 	int record(){
         uBit.init();
-        return uBit.io.pin[5].getAnalogValue()
+        return uBit.io.microphone.getAnalogValue()
 	}
