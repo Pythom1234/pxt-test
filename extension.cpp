@@ -6,3 +6,4 @@ namespace sound{
         uBit.init();
         return uBit.io.microphone.getAnalogValue()
 	}
+}
