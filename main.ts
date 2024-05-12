@@ -1,10 +1,10 @@
 namespace sound {
     //% block
-    //% shim=sound::record
     export function record(): number {
-        return 0
+        return sound.__record()
     }
     //% block
-    //% shim=sound::init
-    export function init(): void {}
+    export function init(): void {
+        sound.__init()
+    }
 }

@@ -1,8 +1,8 @@
 declare namespace sound {
     //% block
-    //% shim=sound::record
-    function record(): number;
+    //% shim=soundCpp::record
+    function __record(): number;
     //% block
-    //% shim=sound::init
-    function init(): void;
+    //% shim=soundCpp::init
+    function __init(): void;
 }
