@@ -1,10 +1,14 @@
 #include "pxt.h"
 
+
 namespace sound
 {
-    //%
-	int record()
-    {
-        return uBit.audio.fft->getClosestNote();
-	}
+void activate()
+{
+uBit.audio->activateMic();
+}
+void deactivate()
+{
+uBit.audio->deactivateMic();
+}
 }

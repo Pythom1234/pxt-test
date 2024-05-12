@@ -1,6 +1,10 @@
 namespace sound {
     //% block
-    export function record(): number {
-        return sound.__record()
+    export function activate(): void {
+        sound.__activate()
+    }
+    //% block
+    export function deactivate(): void {
+        sound.__deactivate()
     }
 }
