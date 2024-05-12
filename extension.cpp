@@ -1,5 +1,7 @@
 #include "pxt.h"
 
+
+
 namespace soundCpp
 {
     //%
@@ -10,6 +12,5 @@ namespace soundCpp
     //%
 	void init()
     {
-        uBit.init();
 	}
 }
