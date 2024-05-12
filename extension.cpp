@@ -1,16 +1,10 @@
 #include "pxt.h"
 
-
-
-namespace soundCpp
+namespace sound
 {
     //%
 	int record()
     {
         return uBit.audio.fft->getClosestNote();
-	}
-    //%
-	void init()
-    {
 	}
 }
