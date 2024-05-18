@@ -4,23 +4,18 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*",
-        "OLED": "github:pythom1234/pxt-oled#v1.1.4"
+        "microphone": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md",
-        "extension.cpp",
-        "extension.ts",
-        "shims.d.ts",
-        "enums.d.ts"
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "6.0.27",
+        "target": "6.0.28",
         "targetId": "microbit"
     },
     "supportedTargets": [
